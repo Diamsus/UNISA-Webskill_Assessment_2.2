@@ -1,3 +1,6 @@
+header {
+    background-color: lightsalmon;
+}
 .flexbox_container_blog_1 {
     display: flex;
     justify-content: center;
