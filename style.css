@@ -1,5 +1,12 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: wheat;
+}
 header {
     background-color: lightsalmon;
+    height: 70px;
+    color: rgb(85, 85, 85);
 }
 .flexbox_container_blog_1 {
     display: flex;
@@ -18,7 +25,7 @@ header {
     height: auto;
     margin: 50px;
     border: 3px solid #333;
-    background-color: blue;
+    background-color: rgb(255, 255, 255);
 }
 
 .blog_entry_1 {
