@@ -5,16 +5,17 @@
     font-style: normal;
     }
 }
-
+html {
+    background: #F5F5F4;
+}
 body {
     padding: 0px;
     margin: 0px;
-    background-color: wheat;
+    background-color: #FFF7ED;
 }
 header {
-    background-color: lightsalmon;
+    background-color: #FEF08A;
     height: 70px;
-    color: rgb(85, 85, 85);
 }
 
 header ul li a {
@@ -22,6 +23,7 @@ header ul li a {
     font-size: x-large;
     font-family: "Lato", sans-serif;
     font-optical-sizing: auto;  
+    color: #1E293B;
 }
 
 header ul li a:hover {
@@ -44,7 +46,7 @@ header ul li a:hover {
 }
 .flexbox_container_blog_2 {
     display: flex;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
     flex-direction: row;
 }
@@ -52,26 +54,34 @@ header ul li a:hover {
     width: 400px;
     height: auto;
     margin: 50px;
-    border: 3px solid #333;
-    background-color: rgb(255, 255, 255);
+    border: 1px solid #333;
+    background-color: #E5E5E5;
 }
 
 .blog_entry_1 {
     min-height: 300px;
+    text-align: center;
+    color: #44403C;
 }
 .blog_entry_2 {
     min-height: 300px;
+    text-align: center;
+    color: #44403C;
 }
 .blog_entry_3 {
     min-height: 300px;
-    margin: 25px;
+    text-align: center;
+    color: #44403C;
+    
 }
 
 .titleHeader {
     text-align: center;
+    color: #44403C;
 }
 .welcomeMessage {
     text-align: center;
+    color: #44403C;
 }
 .blog_image_1 {
     width: 400px;
