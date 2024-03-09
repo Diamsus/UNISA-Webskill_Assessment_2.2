@@ -87,6 +87,11 @@ button{
     border-radius: 12px;
     margin-bottom: 30px;
 }
+.homeButton {
+    display: flex;
+    justify-content: center;
+    
+}
 .buttonContainer {
     display: flex;
     justify-content: space-between;
