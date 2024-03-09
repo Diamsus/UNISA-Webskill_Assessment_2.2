@@ -81,15 +81,48 @@ header ul li a:hover {
     width: 400px;
     height: 150px;
 }
+.blog_image_3 {
+    width: 400px;
+    height: 150px;
+}
+
 /* Footer */
 .footer {
     background:#333;
     color: white;
     height: 400px;
     position: relative;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.footer .f-content {
+    height: 350px;
+    display: flex;
+}
+.footer .f-content .logo_HB{
+    flex: 1;
+    padding: 25px;
+}
+.harriet_Logo {
+    height: 300px;
+    width: 350px;
+}
+.disclaimer {
+    text-align: center;
+    text-justify: inherit;
+    color: aliceblue;
+    padding-top: 100px;
+}
+.footer .f-content .social_Links{
+    flex: 1;
+    align-items: center;
+    padding: 25px;
+    justify-content: center;
+
 }
 .footer .f-copyright {
-    background: #333;
+    background: #535353;
     color: rgb(117, 117, 117);
     height: 50px;
     text-align: center;
@@ -98,4 +131,32 @@ header ul li a:hover {
     left: 0px;
     padding: 20px;
     width: 100%;
+}
+.fa {
+    padding: 20px;
+    font-size: 50px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+.fa-twitter {
+background: #55ACEE;
+color: white;
+}
+.fa-facebook {
+background: #3B5998;
+color: white;
+}
+.fa-instagram {
+background: #125688;
+color: white;
+}
+.fa-pinterest {
+background: #cb2027;
+color: white;
+}
+.fa-youtube {
+background: #bb0000;
+color: white;
 }
