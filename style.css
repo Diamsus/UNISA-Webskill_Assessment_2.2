@@ -15,6 +15,10 @@ body {
     width: auto;
     justify-content: centre;
 }
+.blogButton a {
+    text-decoration: none;
+    color: #404040
+}
 h3 {
     text-align: center;
     color: #44403C
@@ -56,12 +60,6 @@ header ul li a:hover {
     align-items: center;
     flex-direction: row;
 }
-.flexbox_container_blog_3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-}
 .flexbox_item {
     width: 400px;
     height: auto;
@@ -74,20 +72,30 @@ header ul li a:hover {
     min-height: 400px;
     text-align: center;
     color: #44403C;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .blog_entry_2 {
     min-height: 400px;
     text-align: center;
     color: #44403C;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .blog_entry_3 {
     min-height: 400px;
     text-align: center;
     color: #44403C;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     
 }
 button{
     background-color: #D6D3D1;
+    background: #a9bbd8;
     color: #404040;
     width: 250px;
     text-align: center;
@@ -95,7 +103,7 @@ button{
     font-size: 100%;
     border-radius: 12px;
     margin-bottom: 30px;
-    background: #a9bbd8;
+    
 }
 button:hover {
     background: #1E293B;
