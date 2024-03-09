@@ -1,6 +1,9 @@
-const saleItemOne = {image:"https://www.pexels.com/photo/brown-wooden-ship-model-2739070/",price:"$122.95"}
-
-const saleItemTwo = {image:"https://images.pexels.com/photos/6616378/pexels-photo-6616378.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", price:"$24.95"}
+    // creating variables for best selling artworks
+    const saleItemOne = {image:"boat.jpeg",price:"$122.95 AUD"}
+    const saleItemTwo = {image:"woodmap.jpg", price:"$24.95 AUD"}
+    const saleItemThree = {image:"https://images.pexels.com/photos/11105145/pexels-photo-11105145.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", price:"$82.95 AUD"}
+    const saleItemFour = {image:"https://images.pexels.com/photos/12727634/pexels-photo-12727634.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", price:"$60.00 AUD"}
+    const saleItemFive = {image:"https://images.pexels.com/photos/4609253/pexels-photo-4609253.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", price:"$399.00 AUD"}
 
 function updateSaleProduct(imageUrl, price) {
     const saleImage = document.querySelector("#salesDisplay")

@@ -1,7 +1,6 @@
 :root {
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
     font-style: normal;
     }
 }
@@ -12,15 +11,19 @@ html {
 body {
     padding: 0px;
     margin: 0px;
-    background-color: #FFF7ED;
+    background-color: #fae9d4;
     width: auto;
     justify-content: centre;
+}
+h3 {
+    text-align: center;
+    color: #44403C
+    ;
 }
 header {
     background-color: #d1d1d1;
     height: 70px;
 }
-
 header ul li a {
     text-decoration: none;
     font-size: x-large;
@@ -30,7 +33,7 @@ header ul li a {
 }
 
 header ul li a:hover {
-    color: rgb(255, 217, 0);
+    color: rgb(255, 230, 86);
     transition: 0.5s;
 }
 .nav {
@@ -77,6 +80,12 @@ header ul li a:hover {
     text-align: center;
     color: #44403C;
 }
+.blog_entry_3 {
+    min-height: 400px;
+    text-align: center;
+    color: #44403C;
+    
+}
 button{
     background-color: #D6D3D1;
     color: #404040;
@@ -86,6 +95,12 @@ button{
     font-size: 100%;
     border-radius: 12px;
     margin-bottom: 30px;
+    background: #a9bbd8;
+}
+button:hover {
+    background: #1E293B;
+    transition: 0.5s;
+    color: #d1d1d1;
 }
 .homeButton {
     display: block;
@@ -108,12 +123,7 @@ button{
     justify-content: space-evenly;
     padding: 10px 10px;
 }
-.blog_entry_3 {
-    min-height: 400px;
-    text-align: center;
-    color: #44403C;
-    
-}
+
 #salesDisplay {
     max-height: 500px;
     max-width: 500px;
@@ -130,6 +140,7 @@ button{
 .titleHeader {
     text-align: center;
     color: #44403C;
+    background-color:  #d1d1d1;
 }
 .welcomeMessage {
     text-align: center;
@@ -191,7 +202,7 @@ button{
 }
 .footer .f-copyright {
     background: #535353;
-    color: rgb(117, 117, 117);
+    color: rgb(165, 165, 165);
     height: 50px;
     text-align: center;
     position: absolute;
