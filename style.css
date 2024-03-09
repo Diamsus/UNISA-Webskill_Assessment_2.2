@@ -77,6 +77,20 @@ header ul li a:hover {
     text-align: center;
     color: #44403C;
 }
+button{
+    background-color: #D6D3D1;
+    color: #404040;
+    width: 200px;
+    text-align: center;
+    padding: 10px 10px;
+    font-size: 100%;
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+.buttonContainer {
+    display: flex;
+    justify-content: space-between;
+}
 .blog_entry_3 {
     min-height: 400px;
     text-align: center;
