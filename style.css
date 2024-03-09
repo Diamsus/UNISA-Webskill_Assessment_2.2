@@ -7,11 +7,14 @@
 }
 html {
     background: #F5F5F4;
+    width: auto;
 }
 body {
     padding: 0px;
     margin: 0px;
     background-color: #FFF7ED;
+    width: auto;
+    justify-content: centre;
 }
 header {
     background-color: #FEF08A;
@@ -45,6 +48,12 @@ header ul li a:hover {
     flex-direction: row;
 }
 .flexbox_container_blog_2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.flexbox_container_blog_3 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -169,4 +178,11 @@ color: white;
 .fa-youtube {
 background: #bb0000;
 color: white;
+}
+.construction {
+    color: #1E293B;
+    font-size: 250% ;
+    text-align: center;
+    text-justify: auto;
+
 }
