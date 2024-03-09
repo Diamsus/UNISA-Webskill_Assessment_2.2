@@ -16,6 +16,26 @@ header {
     height: 70px;
     color: rgb(85, 85, 85);
 }
+
+header ul li a {
+    text-decoration: none;
+    font-size: x-large;
+    font-family: "Lato", sans-serif;
+    font-optical-sizing: auto;  
+}
+
+header ul li a:hover {
+    color: rgb(255, 217, 0);
+    transition: 0.5s;
+}
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    padding-top: 22px;
+} 
+
 .flexbox_container_blog_1 {
     display: flex;
     justify-content: center;
@@ -60,4 +80,22 @@ header {
 .blog_image_2 {
     width: 400px;
     height: 150px;
+}
+/* Footer */
+.footer {
+    background:#333;
+    color: white;
+    height: 400px;
+    position: relative;
+}
+.footer .f-copyright {
+    background: #333;
+    color: rgb(117, 117, 117);
+    height: 50px;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding: 20px;
+    width: 100%;
 }
