@@ -25,7 +25,7 @@ h3 {
     ;
 }
 header {
-    background-color: #d1d1d1;
+    background-color: #F0F9FF;
     height: 70px;
 }
 header ul li a {
@@ -148,7 +148,7 @@ button:hover {
 .titleHeader {
     text-align: center;
     color: #44403C;
-    background-color:  #d1d1d1;
+    background-color:#F0F9FF;
 }
 .welcomeMessage {
     text-align: center;
