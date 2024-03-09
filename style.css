@@ -17,7 +17,7 @@ body {
     justify-content: centre;
 }
 header {
-    background-color: #FEF08A;
+    background-color: #d1d1d1;
     height: 70px;
 }
 
@@ -68,22 +68,34 @@ header ul li a:hover {
 }
 
 .blog_entry_1 {
-    min-height: 300px;
+    min-height: 400px;
     text-align: center;
     color: #44403C;
 }
 .blog_entry_2 {
-    min-height: 300px;
+    min-height: 400px;
     text-align: center;
     color: #44403C;
 }
 .blog_entry_3 {
-    min-height: 300px;
+    min-height: 400px;
     text-align: center;
     color: #44403C;
     
 }
-
+#salesDisplay {
+    max-height: 400px;
+    max-width: 400px;
+}
+.salesContent {
+    display: flex;
+    justify-content: center;
+}
+.salesTitle {
+    text-align: center;
+    font-size: x-large;
+    font-style: italic;
+}
 .titleHeader {
     text-align: center;
     color: #44403C;
@@ -91,6 +103,12 @@ header ul li a:hover {
 .welcomeMessage {
     text-align: center;
     color: #44403C;
+}
+.price {
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    margin: 0%;
 }
 .blog_image_1 {
     width: 400px;

@@ -56,9 +56,40 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis dolorem, perferendis iste aut, nostrum, laboriosam temporibus expedita eligendi corrupti a eos earum? Harum expedita magni rerum sed obcaecati corrupti consequatur!</p>
         </div>
     </div>
+    <p class="salesTitle"> Best Selling Artworks</p>
+    <div class="salesContent">
+        <img id="salesDisplay" src="https://images.pexels.com/photos/2739070/pexels-photo-2739070.jpeg" alt="Sales Image display">
+    </div>
+    <div class="price">
+    <p>Price:</p><p id="priceCaption">$122.95 AUD</p>
+    <button type="button"> Add to Cart</button>
+
+    <div class="buttonContainer">
+        <button type="button" onclick="updateSaleProduct(saleItemOne.image, saleItemOne.price)"> Wooden Boat</button>
+        <button type="button" onclick="updateSaleProduct(saleItemTwo.image, saleItemTwo.price)"> Wooden Map of Africa</button>
+        <button type="button" onclick="updateSaleProduct(saleItemThree.image, saleItemThree.price)"> Tribal sculpture</button>
+        <button type="button" onclick="updateSaleProduct(saleItemFour.image, saleItemFour.price)"> Woodcarved Owl</button>
+        <button type="button" onclick="updateSaleProduct(saleItemFive.image, saleItemFive.price)"> Outdoor Wood Carving</button>
+    </div>
+    <!-- <button type="button" onclick="updateSaleProduct(saleItemtwo.image, saleItemtwo.price)"> A Great Selling Product</button> -->
+    </div>
+    </div>
+
 </body>
 <script>
+    // creating variables for best selling artworks
+    const saleItemOne = {image:"boat.jpeg",price:"$122.95 AUD"}
+    const saleItemTwo = {image:"woodmap.jpg", price:"$24.95 AUD"}
+    const saleItemThree = {image:"https://images.pexels.com/photos/11105145/pexels-photo-11105145.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", price:"$82.95 AUD"}
+    const saleItemFour = {image:"https://images.pexels.com/photos/12727634/pexels-photo-12727634.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", price:"$60.00 AUD"}
+    const saleItemFive = {image:"https://images.pexels.com/photos/4609253/pexels-photo-4609253.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", price:"$399.00 AUD"}
 
+function updateSaleProduct(imageUrl, price) {
+    const saleImage = document.querySelector("#salesDisplay")
+    const priceCaption = document.querySelector("#priceCaption")
+    saleImage.src = imageUrl
+    priceCaption.innerHTML = price
+}
 </script>
 <div class="footer">
     <div class="f-content">
