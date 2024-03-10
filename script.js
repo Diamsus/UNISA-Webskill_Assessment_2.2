@@ -5,13 +5,14 @@
     const saleItemFour = {image:"https://images.pexels.com/photos/12727634/pexels-photo-12727634.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", price:"$60.00 AUD"}
     const saleItemFive = {image:"https://images.pexels.com/photos/4609253/pexels-photo-4609253.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", price:"$399.00 AUD"}
 
+    // Function to update the image and price of a selected product
 function updateSaleProduct(imageUrl, price) {
     const saleImage = document.querySelector("#salesDisplay")
     const priceCaption = document.querySelector("#priceCaption")
     saleImage.src = imageUrl
     priceCaption.innerHTML = price
 }
-
+    // Function to toggle the theme
 function changeTheme() {
     const body = document.body
     const theme = body.getAttribute("data-theme")
@@ -22,6 +23,7 @@ function changeTheme() {
         return body.setAttribute("data-theme", "light")
     }
 }
+    // Function to change the font from standard to Dyslexic
 function changeFont() {
     const body = document.body
     const theme = body.getAttribute("data-font")
