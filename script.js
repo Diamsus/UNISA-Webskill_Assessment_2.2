@@ -22,3 +22,13 @@ function changeTheme() {
         return body.setAttribute("data-theme", "light")
     }
 }
+function changeFont() {
+    const body = document.body
+    const theme = body.getAttribute("data-font")
+    console.log(theme)
+    if(theme === "standard"){
+        return body.setAttribute("data-font", "dyslexic")
+    }else {
+        return body.setAttribute("data-font", "standard")
+    }
+}

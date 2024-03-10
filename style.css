@@ -24,7 +24,13 @@
         --button-hover-color: #03C988;
         --text-hover-color: #44403C;
 }
+[data-font="dyslexic"] {
+    font-family: 'OpenDyslexicMonoRegular';
+    font-weight:bold;
+    font-style: normal; 
+    letter-spacing: 0.15em;
 
+}
 html {
     width: auto;
 }
@@ -91,25 +97,19 @@ header ul li a:hover {
     min-height: 400px;
     text-align: center;
     color: var(--text-color);
-    font-family: "Lato", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+
 }
 .blog_entry_2 {
     min-height: 400px;
     text-align: center;
     color: var(--text-color);
-    font-family: "Lato", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+
 }
 .blog_entry_3 {
     min-height: 400px;
     text-align: center;
     color: var(--text-color);
-    font-family: "Lato", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+
     
 }
 button{
@@ -287,4 +287,17 @@ color: white;
     margin-left: 22;
     margin-right: auto;
     width: 50%;
+}
+.font_button {
+    background: #535353;
+    color: rgb(165, 165, 165);
+    padding: 10px 10px;
+    font-size: 100%;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    float: right;
+    display: block;
+    margin-left: 22;
+    margin-right: auto;
+    width: 75%;
 }

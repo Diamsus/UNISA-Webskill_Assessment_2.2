@@ -14,12 +14,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
     <!-- Icon Library -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Dyslexic Font -->
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/opendyslexic" type="text/css"/> 
     <!-- Import of Javascript -->
     <script src="script.js" defer></script>
+
 </head>
 
 
-<body data-theme="light">
+<body data-theme="light", data-font="standard">
     <!-- Nav bar header creation -->
     <header>
     <ul class="nav">    
@@ -113,6 +116,9 @@
             </ul>
             <div class="themeChange">   
                 <button class="theme_button" type="button" onclick="changeTheme()">Change Theme</button>
+            </div>
+            <div class="fontChange">   
+                <button class="font_button" type="button" onclick="changeFont()">Change to Dyslexic Font</button>
             </div>
 
         </div>
