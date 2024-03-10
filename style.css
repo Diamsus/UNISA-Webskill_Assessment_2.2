@@ -2,21 +2,27 @@
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-    --body-background: #fae9d4;
+    --body-background: #B5C0D0;
     --text-color: #44403C;
-    --blog-bg-color: #E5E5E5;
-    --heading-bg-color:  #F0F9FF;
+    --blog-bg-color: #EED3D9;
+    --heading-bg-color:  #FFD1DA;
     --footer-color: #333;
     --copyright-color: #535353;
+    --button-bg-color: #a9bbd8;
+    --button-hover-color: #F582A7;
+    --text-hover-color: #44403C;
     }
 [data-theme="dark"] {
-        --body-background: rgb(30, 64, 175);
-        --text-color: rgb(245, 245, 245);
-        --blog-bg-color: rgb(30, 41, 59);
-        --heading-bg-color: rgb(0, 255, 42);
+        --body-background:#35374B;
+        --text-color: #B4D4FF;
+        --blog-bg-color: #5C5470;
+        --heading-bg-color:#344955;
         --heading-color: rgb(49, 46, 129);
         --footer-color: #333;
         --copyright-color: #535353;
+        --button-bg-color: #535353;
+        --button-hover-color: #03C988;
+        --text-hover-color: #44403C;
 }
 
 html {
@@ -50,7 +56,7 @@ header ul li a {
 }
 
 header ul li a:hover {
-    color: rgb(255, 230, 86);
+    color: var(--button-hover-color);
     transition: 0.5s;
 }
 .nav {
@@ -107,8 +113,7 @@ header ul li a:hover {
     
 }
 button{
-    background-color: #D6D3D1;
-    background: #a9bbd8;
+    background: var(--button-bg-color);
     color: var(--text-color);
     width: 250px;
     text-align: center;
@@ -119,9 +124,9 @@ button{
     
 }
 button:hover {
-    background: #1E293B;
+    background: var(--button-hover-color);
     transition: 0.5s;
-    color: #d1d1d1;
+    color: var(--text-hover-color);
 }
 .homeButton {
     display: block;
