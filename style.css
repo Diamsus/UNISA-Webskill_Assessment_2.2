@@ -2,30 +2,43 @@
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+    --body-background: #fae9d4;
+    --text-color: #44403C;
+    --blog-bg-color: #E5E5E5;
+    --heading-bg-color:  #F0F9FF;
+    --footer-color: #333;
+    --copyright-color: #535353;
     }
+[data-theme="dark"] {
+        --body-background: rgb(30, 64, 175);
+        --text-color: rgb(245, 245, 245);
+        --blog-bg-color: rgb(30, 41, 59);
+        --heading-bg-color: rgb(0, 255, 42);
+        --heading-color: rgb(49, 46, 129);
+        --footer-color: #333;
+        --copyright-color: #535353;
 }
+
 html {
-    background: #F5F5F4;
     width: auto;
 }
 body {
     padding: 0px;
     margin: 0px;
-    background-color: #fae9d4;
+    background-color: var(--body-background);
     width: auto;
     justify-content: centre;
 }
 .blogButton a {
     text-decoration: none;
-    color: #404040
+    color: var(--text-color);
 }
 h3 {
     text-align: center;
-    color: #44403C
-    ;
+    color: var(--text-color);
 }
 header {
-    background-color: #F0F9FF;
+    background-color: var(--heading-bg-color);
     height: 70px;
 }
 header ul li a {
@@ -33,7 +46,7 @@ header ul li a {
     font-size: x-large;
     font-family: "Lato", sans-serif;
     font-optical-sizing: auto;  
-    color: #1E293B;
+    color: var(--text-color);
 }
 
 header ul li a:hover {
@@ -65,13 +78,13 @@ header ul li a:hover {
     height: auto;
     margin: 50px;
     border: 1px solid #333;
-    background-color: #E5E5E5;
+    background-color: var(--blog-bg-color);
 }
 
 .blog_entry_1 {
     min-height: 400px;
     text-align: center;
-    color: #44403C;
+    color: var(--text-color);
     font-family: "Lato", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -79,7 +92,7 @@ header ul li a:hover {
 .blog_entry_2 {
     min-height: 400px;
     text-align: center;
-    color: #44403C;
+    color: var(--text-color);
     font-family: "Lato", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -87,7 +100,7 @@ header ul li a:hover {
 .blog_entry_3 {
     min-height: 400px;
     text-align: center;
-    color: #44403C;
+    color: var(--text-color);
     font-family: "Lato", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -96,7 +109,7 @@ header ul li a:hover {
 button{
     background-color: #D6D3D1;
     background: #a9bbd8;
-    color: #404040;
+    color: var(--text-color);
     width: 250px;
     text-align: center;
     padding: 10px 10px;
@@ -144,21 +157,24 @@ button:hover {
     text-align: center;
     font-size: x-large;
     font-style: italic;
+    color: var(--text-color);
+
 }
 .titleHeader {
     text-align: center;
-    color: #44403C;
-    background-color:#F0F9FF;
+    color: var(--text-color);
+    background-color:var(--heading-bg-color);
 }
 .welcomeMessage {
     text-align: center;
-    color: #44403C;
+    color: var(--text-color);
 }
 .price {
     text-align: center;
     font-size: x-large;
     font-weight: bold;
     margin: 0%;
+    color: var(--text-color);
 }
 .blog_image_1 {
     width: 400px;
@@ -175,7 +191,7 @@ button:hover {
 
 /* Footer */
 .footer {
-    background:#333;
+    background:var(--footer-color);
     color: white;
     height: 400px;
     position: relative;
@@ -253,4 +269,17 @@ color: white;
     text-align: center;
     text-justify: auto;
 
+}
+.theme_button {
+    background: #535353;
+    color: rgb(165, 165, 165);
+    padding: 10px 10px;
+    font-size: 100%;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    float: right;
+    display: block;
+    margin-left: 22;
+    margin-right: auto;
+    width: 50%;
 }

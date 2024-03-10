@@ -11,3 +11,14 @@ function updateSaleProduct(imageUrl, price) {
     saleImage.src = imageUrl
     priceCaption.innerHTML = price
 }
+
+function changeTheme() {
+    const body = document.body
+    const theme = body.getAttribute("data-theme")
+    console.log(theme)
+    if(theme === "light"){
+        return body.setAttribute("data-theme", "dark")
+    }else {
+        return body.setAttribute("data-theme", "light")
+    }
+}
