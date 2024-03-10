@@ -121,7 +121,7 @@ button{
     font-size: 100%;
     border-radius: 12px;
     margin-bottom: 30px;
-    
+    border: 1px ridge #263041;
 }
 button:hover {
     background: var(--button-hover-color);
@@ -153,6 +153,7 @@ button:hover {
 #salesDisplay {
     max-height: 500px;
     max-width: 500px;
+    padding-bottom: 20px;
 }
 .salesContent {
     display: flex;
@@ -163,6 +164,7 @@ button:hover {
     font-size: x-large;
     font-style: italic;
     color: var(--text-color);
+    vertical-align: bottom;
 
 }
 .titleHeader {
